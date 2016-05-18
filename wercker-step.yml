@@ -1,0 +1,17 @@
+name: contxt-deploy
+version: 0.1.0
+description: Deploys containers to Contxt
+keywords:
+  - stacks
+  - deploy
+  - contxt
+properties:
+  token:
+    type: string
+    required: true
+  service-descriptor:
+    type: string
+    required: true
+  service-name:
+    type: string
+    required: false
